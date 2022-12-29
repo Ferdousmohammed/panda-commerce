@@ -1,0 +1,66 @@
+.hello {
+    background-color: rgb(241, 241, 174);
+    border-radius: 15px;
+}
+.container {
+    margin-bottom: 60px;
+   
+}
+
+
+.align-items-center {
+    padding: 25px 35px;
+}
+.price {
+    color: hwb(0 3% 0%);
+}
+.buy {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: aliceblue;
+    padding: 9px 25px;
+    border: 5px solid rgb(187, 229, 229);
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+.cat1, .cat2, .cat3 {
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.cat1 {
+    background-color: orange;
+}
+.cat2 {
+    background-color: orchid;
+}
+.cat3 {
+    background-color: rgb(37, 168, 229);
+}
+.categories  h1 {
+     
+color: white;
+}
+.categories img {
+    width: 100px;
+}
+
+.love {
+    color: orange;
+}
+
+.card {
+    box-shadow: 5px 5px 10px lightgray;
+}
+h1, #line {
+    color: rgb(170, 22, 15);
+ }
+ #contact {
+    height: 250px;
+    width: 650px;
+ }
+ #contact h5 {
+    color: darkblue;
+ }
+ #bagpack {
+   
+ }

@@ -6,8 +6,256 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>panda-commerce</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="panda-commerce2/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bagpack">Bagpack</a>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+
+                  </li>
+                  
+
+
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#contact">Contact</a></li>
+      
+
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class=" container">
+        <div id="carouselExample" class="carousel slide hello">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+<div class="row align-items-center">
+    <div class="col-md-7"> 
+        <h1>Bits headphone</h1>
+        <p> Gifted by me to Zajira resident Zahid Hasan Anil for watching 19/20 </p>
+        <h3 class="price">price $45</h3>
+        <button class="buy"> Buy Now</button>
+        <footer>made in America</footer>
+    </div>
+
+    <div class="col-md-5">
+        <img src="panda-commerce2/banner-images/headphone.png" class="d-block w-100" alt="...">
+
+    </div>
+</div>
+
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7"><h1>Kashem TV</h1>
+                        <p> Gifted by me to bickrampuri resident Jubayer Hossain for watching 19/20 at midnight in HBo </p>
+                        <h3 class="price">price $505</h3>
+                        <button class="buy"> Buy Now</button>
+
+                        <footer>made in Noakhali</footer>  </div>
+                    <div class="col-md-5"> 
+                        <img src="panda-commerce2/banner-images/tv.png" class="d-block w-100" alt="...">
+
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7"><h1>xbox</h1>
+                        <p> Gifted by me to Shariatpur resident Munija Munnis Jamai for playing like bidrohi kobi </p>
+                        <h3 class="price">price $199</h3>
+                        <button class="buy"> Buy Now</button>
+
+                        <footer>made in Jatrabari</footer>  </div>
+                    <div class="col-md-5">
+                        <img src="panda-commerce2/banner-images/xbox.png" class="d-block w-100" alt="...">
+
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+
+<div class="container categories">
+    <div class="row">
+        <div class="col-md-4 ">
+           <div class="d-flex justify-content-between align-items-center cat1">
+            <h1>Watch</h1>
+            <img src="panda-commerce2/categories/watch.png" alt="">
+           </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex justify-content-between  align-items-center cat2">
+                <h1>Bag</h1>
+            <img src="panda-commerce2/categories/bag.png " alt="">
+            </div>
+        </div>
+        <div class="col-md-4">
+           <div class="d-flex justify-content-between align-items-center cat3">
+           <h1>Shoes</h1>
+           <img src="panda-commerce2/categories/shoes.png" alt="" >
+        </div>
+    </div>
+
+    <!-- card section -->
+
+    <div class="container shoes" id="shoes"> 
+      <h3>Shoes</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="panda-commerce2/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5  class="card-title"> Addidas</h5>
+              <p class="card-text love">High quality shoes from Addidas company, These special shoes are for those who consider themselves extra-ordinary .</p>
+              <h3 class="price">$149</h3>
+              <button class="buy"> Buy Now >></button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class=" card">
+            <img src="panda-commerce2/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Puma</h5>
+            
+              <p class="card-text love">High quality shoes from Puma company, These special shoes are for those who consider themselves extra-ordinary.</p>
+              <h3 class="price">$111</h3>
+              <button class="buy"> Buy Now >></button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="panda-commerce2/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike</h5>
+              <p class="card-text love">High quality shoes from Nike company, These special shoes are for those who consider themselves extra-ordinary </p>
+              <h3 class="price">$129</h3>
+              <button class="buy"> Buy Now >></button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
     
+      <div class="container" id="bagpack">
+  <div class="card-group ">
+    <div class="card ">
+      <img src="panda-commerce2/bags/bag-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Addidas</h5>
+        <p class="card-text bag love"> High quality bag from Addidas company, These special shoes are for those who consider themselves.</p>
+        <h3 class="price">$199</h3>
+        <button class="buy"> Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="panda-commerce2/bags/bag-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Puma</h5>
+        <p class="card-text love"> High quality bag from Puma company, These special shoes are for those who consider themselves. </p>
+        <h3 class="price">$169</h3>
+        <button class="buy"> Buy Now >></button>
+
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="panda-commerce2/bags/bag-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nike</h5>
+        <p class="card-text love">High quality bag from Nike company, These special shoes are for those who consider themselves. </p>
+        <h3 class="price">$179</h3>
+        <button class="buy"> Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+<div class="container hello d-flex justify-content-center align-items-center " id="contact">
+ <div class="">
+  <h1 id="line">Let's stay in touch</h1>
+  <h5>Get updates on sales, specials and more</h5>
+  <h5>Enter your m@il</h5>
+  <input type="text">
+  <button class="buy"> Contact >></button>
+ </div>
+</div>
+<footer style="text-align:center ;" >
+  <small>© copyright 2022. All rights reserved by <span><a target="_blank" href="https://www.facebook.com/ferdous7.mohammad/">Ferdous Mohammed </a> </span></small>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>
